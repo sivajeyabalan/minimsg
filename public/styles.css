@@ -1,0 +1,19 @@
+/* Custom styles */
+body {
+  padding: 20px;
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.message h2 {
+  font-size: 1.5em;
+}
+
+.message p {
+  margin: 0;
+}

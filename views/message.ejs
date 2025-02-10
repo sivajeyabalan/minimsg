@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4"><%= title %></h1>
+    <div class="message">
+      <h2>User: <%= message.user %></h2>
+      <p>Message: <%= message.text %></p>
+      <p>Added: <%= message.added %></p>
+    </div>
+    <a href="/" class="btn btn-secondary">Back to Messageboard</a>
+  </div>
+</body>
+</html>
